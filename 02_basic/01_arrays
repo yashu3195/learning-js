@@ -1,0 +1,66 @@
+//array
+
+/*const arr = [0, 1, 2, 3, 4, 5, 6];
+
+const myHeroes = ['shaktiman', 'naagraaj', 'doga']
+
+const myArr = ['shaktiman', '5', 5, 89, true]
+
+const arr2 = new Array(0, 1, 5, 9)
+
+console.log(arr[5]);
+console.log(myHeroes[2]);
+console.log(myArr[4]);
+
+// array methods
+arr.push(99);   //add in the last
+console.log(arr);  
+
+arr.pop()                   ////removed from the last
+console.log(arr);
+
+myArr.unshift(55);     //adds in the start
+console.log(myArr);
+myArr.shift()           //removes from the start
+
+
+//  * *** * * *  includes 
+console.log(myArr.includes(94));
+console.log(myArr.includes(5));
+
+console.log(myHeroes.indexOf("doga"));
+console.log(myArr.indexOf(5)); 
+const myArr = ['shaktiman', '5', 5, 89, true]
+
+const joinArr = myArr.join()      
+        //join method purane array ko new array me badal deta hai string value me output aata hai - shaktiman,5,5,89,true
+string
+console.log(joinArr);
+
+console.log(myArr);
+
+console.log(typeof joinArr);  */
+
+
+const myArr = ['shaktiman', '5', 5, 89, true];
+//
+//
+//
+//const newArr = myArr.slice(1, 4) //yaha pe ek se teen no. tak value print hogi. zero aur chaar no. nahi print hoga
+//
+//console.log("ye slice method hai: " + newArr)
+//console.log("original array: " + myArr)
+//
+//
+//const newArr2 = myArr.splice(0, 3) //yaha par zero se two no. tak value print hogi
+//
+//console.log("ye splice method hai: " + newArr2);
+//
+
+//const nayaArr = myArr.join()
+//
+//console.log(nayaArr);
+//
+////console.log(myArr);
+//
+//console.log(typeof nayaArr); 
