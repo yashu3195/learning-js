@@ -13,8 +13,8 @@ const regularUser = {
     regularemail: "some@gmail.com",
     fullName: {
         userFullName: {
-            firstName: "Anubhav",           //nesting of object. object within object
-            lastName: "Singh"
+            firstName: "Anubhav",       //nesting of object. object within object.
+            lastName: "Singh",
         }
     }
 
@@ -62,7 +62,46 @@ const user = {
 //console.log(Object.keys(user));
 //console.log(Object.values(user));
 //console.log(Object.entries(user));
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
-console.log(user.hasOwnProperty('id6'));
+//console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+//console.log(user.hasOwnProperty('id6'));
 
 
+// destructring - 
+const course = {
+    courseName: "js in hindi",
+    courseFees: "999",
+    courseInstructor: "Hitesh Choudhary",
+    courseIsOngoing: true,
+}
+//
+//console.log(course.courseIsOngoing);
+//console.log(course["courseIsOngoing"]);
+//console.log(course["courseFees"]);
+//
+
+
+
+//course.courseInstructor//
+
+
+
+//const {kyaValueExtractKarSakteHai} = yahaSeValueExtractKarniHai
+//react me jyada use hogi datarestructure
+const {courseInstructor} = course
+//console.log(courseInstructor);
+const {courseInstructor: instructor} = course
+//console.log(instructor);
+//const navbar = () => ({company})
+
+//navbar(company = "hitesh")
+
+/*{
+    "name": "anubhav",
+    "course": "js",
+    "price": "free"
+}
+
+[
+{}
+{}
+]
