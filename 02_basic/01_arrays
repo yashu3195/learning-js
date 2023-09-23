@@ -55,7 +55,7 @@ const myArr = ['shaktiman', '5', 5, 89, true];
 //const newArr2 = myArr.splice(0, 3) //yaha par zero se two no. tak value print hogi
 //
 //console.log("ye splice method hai: " + newArr2);
-/
+
 const nayaArr = myArr.join()
 
 console.log(nayaArr);
