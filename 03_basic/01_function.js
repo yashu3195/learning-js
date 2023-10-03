@@ -115,7 +115,7 @@ function addNumber(numberOne, numberTwo) {
 
 
 
-  function loginUserMessage(username = "Yashu"){
+ /*function loginUserMessage(username = "Yashu"){
     if(!username){
         console.log("Please Enter a Username");
     return
@@ -123,4 +123,41 @@ function addNumber(numberOne, numberTwo) {
     return `${username} Just Logged In`
   }
   //loginUserMessage("Yashu")
-  console.log(loginUserMessage("Rishi"));
+  console.log(loginUserMessage("Rishi"));*/
+
+
+
+  /*function calculateCartPrice(...num1){
+    return num1
+  }
+  console.log(calculateCartPrice(200, 400, 500, 2000));
+  */
+
+
+
+  /*function calculateCartPrice(val1, val2, ...num1){
+    return num1
+  }
+  console.log(calculateCartPrice(200, 400, 500, 2000));
+*/
+
+  const user = {
+    userName: "Yashu",
+    Price: 199,
+  }
+
+  function handleObject(anyobject) {
+    console.log(`Username is ${anyobject.userName} and Price is ${anyobject.Price} `);
+  }
+ // handleObject(user)
+
+ handleObject({
+    userName: "Anubhav",
+    Price: 399,
+ })
+
+ const newArray = [200, 663, 50, 663]
+ function returnSecondValue(getNewArray){
+return getNewArray[2]
+ }
+ console.log(returnSecondValue([200, 420, 307, 302]));
